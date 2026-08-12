@@ -1,7 +1,7 @@
-# openhost-mkdocs
+# bottled-mkdocs
 
 [MkDocs](https://www.mkdocs.org/) with [Material](https://squidfunk.github.io/mkdocs-material/) — the popular Python-based documentation
-site generator — packaged for OpenHost with a live-rebuild loop.
+site generator — packaged for Cloud in a Bottle with a live-rebuild loop.
 
 ## What you get
 
@@ -105,6 +105,6 @@ keeps serving until the operator fixes the issue. Errors appear in
 
 ## When NOT to use this
 
-- You want a "drop HTML" workflow → `openhost-darkhttpd`.
-- You prefer Hugo's Go-template based theming → `openhost-hugo`.
-- You want a wiki where users edit in the browser → `openhost-outline`.
+- You want a "drop HTML" workflow → `bottled-darkhttpd`.
+- You prefer Hugo's Go-template based theming → `bottled-hugo`.
+- You want a wiki where users edit in the browser → `bottled-outline`.
